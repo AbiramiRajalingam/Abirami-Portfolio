@@ -9,7 +9,7 @@ body{
 }
 .timeline-section{
 	background-color: #ffffff;
-	min-height: 100vh;
+	max-height: 30vh;
 	padding: 100px 15px;
 }
 .timeline-items{

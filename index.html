@@ -14,7 +14,7 @@
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
                 <li><a href="#experience">Experience</a></li>
-                <li><a href="#technicalskiils">Technical Skills</a></li>
+                <li><a href="#skills">Technical Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -71,12 +71,13 @@
             />
           </div>
         </div>
-        <img
+        <button id="scrollToTop" onclick="scrollFunction()" style="display: none;">&#8679;</button>
+        <!-- <img
             src="./assets/arrow.png"
             alt="Arrow icon"
             class="icon arrow"
             onclick="location.href='./#about'"
-        />
+        /> -->
       </section>
       <!----------------------------------------------------------------------------------------->
       <section id="about">
@@ -93,7 +94,7 @@
                   class="icon"
                 />
                 <h3>Experience</h3>
-                <p>2+ years <br />Frontend Development</p>
+                <p>5+ years <br />Data/ML Engineer</p>
               </div>
               <div class="details-container">
                 <img
@@ -102,208 +103,324 @@
                   class="icon"
                 />
                 <h3>Education</h3>
-                <p>B.Sc. Bachelors Degree<br />M.Sc. Masters Degree</p>
+                <p>M.S., Applied Data Science<br />B.Tech., Information Technology</p>
               </div>
             </div>
             <div class="text-container">
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-                reprehenderit et laborum, rem, dolore eum quod voluptate
-                exercitationem nobis, nihil esse debitis maxime facere minus sint
-                delectus velit in eos quo officiis explicabo deleniti dignissimos.
-                Eligendi illum libero dolorum cum laboriosam corrupti quidem,
-                reiciendis ea magnam? Nulla, impedit fuga!
+                I am a passionate Data Enthusiast with a solid foundation in statistical modeling, machine learning, and AI solutions. Since starting my journey in 2017, I've leveraged data-driven insights to improve operational efficiencies and customer interactions across various industries. 
+                With a Master's degree in Applied Data Science from Syracuse University, I have honed my skills in quantitative data analytics, natural language processing, and big data.
+                I've tackled real-world challenges, from reducing bias in job descriptions to enhancing healthcare analytics through advanced statistical modeling. These experiences have not only sharpened my technical skills but also tested them in practical, impactful applications. As I look forward to graduating in May 2024, I am eager to bring my analytical expertise and innovative thinking to a role where strategic data use drives significant business improvements and societal change.
+                
               </p>
             </div>
           </div>
-        <img
+          <button id="scrollToTop" onclick="scrollFunction()" style="display: none;">&#8679;</button>
+        <!-- <img
             src="./assets/arrow.png"
             alt="Arrow icon"
             class="icon arrow"
             onclick="location.href='./#experience'"
-        />
+        /> -->
       </section>
-      <!------------------------------------------------>
+      <!-------------------------------------------------------------------------->
       <section id="experience">
-        <p class="section__text__p1">Get To Know My Experience</p>
-        <h1 class="title">Experience</h1>
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1></br></br>
+        <div class="experience-section-container">
         <div class="experience-details-container">
-          <div class="about-containers">
-            <div class="timeline-section">
-              <div class="timeline-items">
-                  <div class="timeline-item">
-                      <div class="timeline-dot"></div>
-                      <div class="timeline-date">2015</div>
-                      <div class="timeline-content">
-                          <h3>timeline item title</h3>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                      </div>
+        <div class="timeline-section">
+          <div class="timeline-items">
+              <div class="timeline-item">
+                  <div class="timeline-dot"></div>
+                  <div class="timeline-date">Aug 2023 - Present</div>
+                  <div class="timeline-content">
+                      <h3>Data Analyst Intern, Syracuse University, NY</h3>
+                      <p>At Syracuse University Health Services, 
+                        I apply my expertise in health analytics using Python and sklearn to develop regression models and perform ANOVA tests, 
+                        analyzing student health records to identify trends and anomalies. I create dynamic Tableau dashboards for enhanced 
+                        data visualization and decision-making, and utilize advanced SQL techniques to optimize health service utilization and resource management, 
+                        improving healthcare services and student experiences. </p>
                   </div>
-                  <div class="timeline-item">
-                      <div class="timeline-dot"></div>
-                      <div class="timeline-date">2016</div>
-                      <div class="timeline-content">
-                          <h3>timeline item title</h3>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                      </div>
+              </div>
+              <div class="timeline-item">
+                  <div class="timeline-dot"></div>
+                  <div class="timeline-date">Nov 2022 - Feb 2023</div>
+                  <div class="timeline-content">
+                      <h3>Data Engineer, Iconsult Collaborative, Syracuse University, NY   </h3>
+                      <p>Developed BERT algorithms with Named Entity Recognition to mitigate biased language in job descriptions 
+                        using semantic searching. Integrated hybrid neural networks with reinforcement learning and 
+                        custom MSE loss functions to reduce false negatives. Implemented a reusable Azure ML pipeline and 
+                        constructed TensorFlow estimators for fine-tuning BERT models and containerized the LLM using Docker for deployment on Azure Kubernetes Services. </p>
                   </div>
-                  <div class="timeline-item">
-                      <div class="timeline-dot"></div>
-                      <div class="timeline-date">2017</div>
-                      <div class="timeline-content">
-                          <h3>timeline item title</h3>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                      </div>
+              </div>
+              <div class="timeline-item">
+                  <div class="timeline-dot"></div>
+                  <div class="timeline-date">Aug 2018 - Jul 2022</div>
+                  <div class="timeline-content">
+                      <h3>Machine Learning Engineer, Renault Nissan Alliance, India</h3>
+                      <p>Automated assigning query tickets using Auto ML classification models for 
+                        enhanced ticket resolution. Applied ARIMA time series models to forecast monthly spare part release 
+                        targets and designed handwritten invoice recognizers using OCR and CNN models to reduce manual correction needs.
+                        Crafted intricate subqueries and join functions in PostgreSQL, 
+                        leveraging primary keys to optimize database performance. </p>
                   </div>
-                  
               </div>
           </div>
-        </div>
-        <img
-          src="./assets/arrow.png"
-          alt="Arrow icon"
-          class="icon arrow"
-          onclick="location.href='./#projects'"
-        />
-      </section>
-      <!---------------------------------------------------------------->
-      <!------------------------------------------------------------------------------------------------>
-      
-      <!----------------------------------------------------------------------------->
-    <!-- <section id="technicalskiils">
-      <p class="section__text__p1">Explore My</p>
+      </div>
+     </div>
+    </div>
+
+    <button id="scrollToTop" onclick="topFunction()" style="display: none;">&#8679;</button>
+
+        <!-- <img
+            src="./assets/arrow.png"
+            alt="Arrow icon"
+            class="icon arrow"
+            onclick="location.href='./#skills'"
+        /> -->
+    </section>
+
+      <!------------------------------------------------------------------------------------------------------------->
+    <section id="skills">
       <h1 class="title">Technical Skills</h1>
+      <div class="skills-section-container">
       <div class="experience-details-container">
         <div class="about-containers">
+
           <div class="details-container">
-            <h2 class="technicalskiils-sub-title">Frontend Development</h2>
+            <h4 class="experience-sub-title">Programming</h4>
             <div class="article-container">
               <article>
                 <img
                   src="./assets/checkmark.png"
-                  alt="technicalskiils icon"
+                  alt="Experience icon"
                   class="icon"
                 />
                 <div>
-                  <h3>HTML</h3>
-                  <p>Experienced</p>
+                  <h4>Python</h4>
                 </div>
               </article>
               <article>
                 <img
                   src="./assets/checkmark.png"
-                  alt="technicalskiils icon"
+                  alt="Experience icon"
                   class="icon"
                 />
                 <div>
-                  <h3>CSS</h3>
-                  <p>Experienced</p>
+                  <h4>R</h4>
                 </div>
               </article>
               <article>
                 <img
                   src="./assets/checkmark.png"
-                  alt="technicalskiils icon"
+                  alt="Experience icon"
                   class="icon"
                 />
                 <div>
-                  <h3>SASS</h3>
-                  <p>Intermediate</p>
+                  <h4>Pyspark</h4>
                 </div>
               </article>
               <article>
                 <img
                   src="./assets/checkmark.png"
-                  alt="technicalskiils icon"
+                  alt="Experience icon"
                   class="icon"
                 />
                 <div>
-                  <h3>JavaScript</h3>
-                  <p>Basic</p>
+                  <h4>SQL</h4>
                 </div>
               </article>
               <article>
                 <img
                   src="./assets/checkmark.png"
-                  alt="technicalskiils icon"
+                  alt="Experience icon"
                   class="icon"
                 />
                 <div>
-                  <h3>TypeScript</h3>
-                  <p>Basic</p>
+                  <h4>PostgreSQL</h4>
                 </div>
               </article>
               <article>
                 <img
                   src="./assets/checkmark.png"
-                  alt="technicalskiils icon"
+                  alt="Experience icon"
                   class="icon"
                 />
                 <div>
-                  <h3>Material UI</h3>
-                  <p>Intermediate</p>
+                  <h4>NoSQL</h4>
                 </div>
               </article>
             </div>
           </div>
           <div class="details-container">
-            <h2 class="technicalskiils-sub-title">Frontend Development</h2>
+            <h4 class="experience-sub-title">Cloud & Frameworks</h4>
             <div class="article-container">
               <article>
                 <img
                   src="./assets/checkmark.png"
-                  alt="technicalskiils icon"
+                  alt="Experience icon"
                   class="icon"
                 />
                 <div>
-                  <h3>PostgreSQL</h3>
-                  <p>Basic</p>
+                  <h4>Azure</h4>
                 </div>
               </article>
               <article>
                 <img
                   src="./assets/checkmark.png"
-                  alt="technicalskiils icon"
+                  alt="Experience icon"
                   class="icon"
                 />
                 <div>
-                  <h3>Node JS</h3>
-                  <p>Intermediate</p>
+                  <h4>Snowflake</h4>
                 </div>
               </article>
               <article>
                 <img
                   src="./assets/checkmark.png"
-                  alt="technicalskiils icon"
+                  alt="Experience icon"
                   class="icon"
                 />
                 <div>
-                  <h3>Express JS</h3>
-                  <p>Intermediate</p>
+                  <h4>Databricks</h4>
                 </div>
               </article>
               <article>
                 <img
                   src="./assets/checkmark.png"
-                  alt="technicalskiils icon"
+                  alt="Experience icon"
                   class="icon"
                 />
                 <div>
-                  <h3>Git</h3>
-                  <p>Intermediate</p>
+                  <h4>DBT cloud</h4>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Kafka</h4>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h4 class="experience-sub-title">visualization & Tools</h4>
+            <div class="article-container">
+              <article> 
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>PowerBI</h4>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Tableau</h4>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Google Analytics</h4>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Docker</h4>
+                </div>
+              </article>
+            
+            </div>
+          </div>
+          <div class="details-container">
+            <h4 class="experience-sub-title"> Core Competencies</h4>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>statistical modeling</h4>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>ML/DL</h4>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>NLP</h4>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Big Data</h4>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Data Warehousing</h4>
                 </div>
               </article>
             </div>
           </div>
         </div>
       </div>
-      <img
+    </div>
+    <button id="scrollToTop" onclick="scrollFunction()" style="display: none;">&#8679;</button>
+      <!-- <img
         src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
         onclick="location.href='./#projects'"
-      />
-    </section> -->
+      /> -->
+    </section>
+    <!----------------------------------------------------------------------------------------------------------->
     <section id="projects">
       <p class="section__text__p1">Browse My Recent</p>
       <h1 class="title">Projects</h1>
@@ -312,86 +429,189 @@
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="./assets/project-1.png"
+                src="./assets/Breast_cancer_proj.JPG"
                 alt="Project 1"
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project One</h2>
+            <h2 class="experience-sub-title project-title">Text Analysis on Breast Cancer Using Reddit Post</h2>
+            <p align = "justify" >This project leveraged KeyBert to enhance a responsive Q&A chatbot designed for Reddit forums, 
+              boosting advisory capabilities and patient communication. This approach increased analytics and 
+              user engagement through tailored recommendations. Additionally, utilized LSTM networks combined with BERT Topic Modeling and TfidfVectorizer to generate coherent responses across various queries. Furthermore, implemented DistilBERT through transfer learning for efficient sentiment analysis on cancer reviews, 
+              which streamlined the manual review significantly improving operational efficiency.</p>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="location.href='https://github.com/AbiramiRajalingam/Text-Analysis-on-Breast-Cancer-Using-Reddit-Post'"
               >
                 Github
               </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Live Demo
-              </button>
             </div>
           </div>
+
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="./assets/project-2.png"
+                src="./assets/data-warehousing.png"
                 alt="Project 2"
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project Two</h2>
+            <h2 class="experience-sub-title project-title">Enterprise Data Warehouse Development</h2>
+            <p align = "justify">Developed a scalable data warehouse for retail and streaming enterprises using an advanced 
+              ETL pipeline strategy based on Kimball Architecture principles. Also designed a Snowflake-centric data architecture that integrates data from diverse sources like S3 Buckets, 
+               Azure Blob Storage, and Minio into a unified warehouse, improving data accessibility and analysis capabilities. 
+               Additionally, employed DBT Cloud for precise data modeling and pipeline construction across financial datasets, 
+               which increased analytical precision and strategic insights. Furthermore, optimized data visualization and decision-making processes by deploying Power BI to create integrated dashboards.</p>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="location.href='https://github.com/AbiramiRajalingam/Enterprise-Data-Warehouse-Development'"
               >
                 Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Live Demo
               </button>
             </div>
           </div>
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="./assets/project-3.png"
+                src="./assets/global trends.png"
                 alt="Project 3"
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project Three</h2>
+            <h2 class="experience-sub-title project-title">Exploring Global GDP Trends and Predictive Insights using Pyspark</h2>
+            <p align="justify"> Delving into the intricate web of economic and social dynamics, this project embarks on a 
+              journey to decipher the essence of globalization through meticulous analysis of key indicators.
+               Through this project, I showcased my proficiency in data analysis, predictive modeling, and 
+               trend analysis, using tools like Python, pyspark and statistical techniques to
+               unravel complex economic patterns and provide actionable recommendations for policymakers and researchers alike.</p>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="location.href='https://github.com/AbiramiRajalingam/Exploring-Global-GDP-Trends-and-Predictive-Insights-using-pyspark'"
               >
                 Github
               </button>
+            </div>
+          </div>
+        </div>
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/twwets_gpt4.jpeg"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Unsupervised Sentiment Analysis of Tweets on GPT-4</h2>
+            <p align = "justify">This project explores the application of unsupervised learning techniques for 
+              sentiment analysis of Twitter data concerning public opinion on GPT-4. 
+              Utilizing K-means clustering, this project categorizes tweets into positive, negative, or neutral 
+              sentiments, offering insights into societal perspectives on GPT-4 without the need for labeled data.
+            </p>
+            <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="location.href='https://github.com/AbiramiRajalingam/Unsupervised-Sentiment-Analysis-of-Tweets-on-GPT-4'"
               >
-                Live Demo
+                Github
+              </button>
+            </div>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/Healthcare.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Healthcare Cost Prediction</h2>
+            <p align = "justify">Understanding the financial impact of medical expenses, particularly in relation to conditions 
+              like obesity, is crucial for devising effective preventive measures. By analyzing a dataset encompassing factors 
+              such as age, BMI, smoking, exercise habits, and marital status across seven states in the US, 
+              we aim to predict healthcare costs for individuals. This predictive analysis serves as a valuable tool for 
+              healthcare management organizations (HMOs), offering actionable insights into how to minimize overall healthcare expenditures.</p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/AbiramiRajalingam/Healthcare-Cost-Prediction'"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/sparepart.jpg"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Spare Part Inventory Management</h2>
+            <p align = "justify">spare parts database streamlines inventory management, 
+              ensuring parts availability and secure data handling. It simplifies tracking, and order placement, 
+              and maintains records, enhancing efficiency and reducing errors in the motor car industry.</p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/AbiramiRajalingam/Spare_Part_Inventory_Management'"
+              >
+                Github
               </button>
             </div>
           </div>
         </div>
       </div>
-      <img
+      <button id="scrollToTop" onclick="scrollFunction()" style="display: none;">&#8679;</button>
+      <!-- <img
         src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
         onclick="location.href='./#contact'"
-      />
+      /> -->
     </section>
-
-
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:abiramirajalingam96@gmail.com">abiramirajalingam96@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/abiramirajalingam/">LinkedIn</a></p>
+        </div>
+      </div>
+      <button id="scrollToTop" onclick="scrollFunction()" style="display: none;">&#8679;</button>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Technical Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Abirami Rajalingam. All Rights Reserved.</p>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
